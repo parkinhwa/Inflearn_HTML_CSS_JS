@@ -1,0 +1,18 @@
+body{
+    font-style: 15px;
+    line-height: 1.6em;
+}
+h1{
+    font-weight: normal;
+}
+p.text{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu{
+    list-style: lower-roman;
+}
+.menu2{
+    list-style: none;
+}

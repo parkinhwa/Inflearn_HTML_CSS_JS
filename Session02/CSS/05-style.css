@@ -1,0 +1,34 @@
+p {
+    text-align: center;
+    color: gray;
+}
+p.center {
+    text-align: right;
+    color: green;
+}
+#center {
+    text-align: left;
+    color: greenyellow;
+}
+
+h1, p{
+    color: red;
+    text-align: center;
+    font-style: 30px;
+}
+
+p b{
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
+.text{
+    color: green;
+}
+
+#text{
+    color: red !important;
+}
