@@ -1,0 +1,36 @@
+div {
+    background-color: #ccc;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+.box1 {
+    box-shadow: 5px 5px 20px black;
+}
+
+.box2 {
+    box-shadow: 0 0 20px dodgerblue;
+}
+
+.box3 {
+    box-shadow: 10px 10px 0 crimson;
+}
+
+.box4 {
+    box-shadow: inset 0px 0px 20px black;
+}
+
+.box4 {
+    box-shadow: inset 0px 0px 20px black;
+}
+
+.heading {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: gold;
+    /* text-shadow: 0 0 20px rgba(255, 255, 255, 0.6); */
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
