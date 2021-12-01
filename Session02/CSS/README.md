@@ -47,5 +47,14 @@ HTML 문서 내에 HTML 태크를 선택해서 디자인하고 배치하는 역�
 
 ![image](https://user-images.githubusercontent.com/65644486/144005701-bd7e0516-1520-4024-b25c-e3ea5c51d18d.png)
 
-
+## 상세 디자인을 위한 CSS 박스 모델
+- border-style(테두리 스타일 지정)
+  - value: solid, dashed, dotted, double, groove, inset, outset
+- border-width(테두리 두께 지정)
+  - px, %, thin, medium, thick
+- border-color(테두리 색상 지정)
+- border-radius (왼쪽위 오른쪽위 오른쪽아 왼쪽아)
+- margin / padding (top right left bottom)
+- box-sizing: border-box (박스사이즈 맞춰준다)
+- box-shadow: inset offset-x offset-y blur color (inset 안쪽그림자, blur 그림자 가장자리 부드럽게)
 
