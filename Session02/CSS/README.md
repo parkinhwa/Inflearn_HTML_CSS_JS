@@ -111,4 +111,5 @@ HTML 문서 내에 HTML 태크를 선택해서 디자인하고 배치하는 역�
 - 콘텐츠 내용 넣기: article
 - 문서를 링크하는 탐색 영역: nav
 - 세부 사항 요소: summary / 추가 세부 정보를 정의 : details
- ![image](https://user-images.githubusercontent.com/65644486/144627013-0b1c04f9-9132-4f06-922a-7a68be83cb47.png) {:.right}
+
+ ![image](https://user-images.githubusercontent.com/65644486/144627013-0b1c04f9-9132-4f06-922a-7a68be83cb47.png) 
