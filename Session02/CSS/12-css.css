@@ -1,0 +1,73 @@
+.parent{
+    border: 5px solid red;
+    width: 600px;
+    /* 부모요소가 높이값을 잃었을때 찾아주는 속성 overflow */
+    overflow: hidden;
+    text-align: center;
+}
+.child {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    display: block;
+    /* 자식요소에 float 속성이 있으면 높이값을 잃음 */
+    /* float: left; */
+}
+
+.block {
+    border: 5px solid yellow;
+    width: 600px;
+}
+
+.top {
+    background-color: purple;
+    height: 50px;
+}
+
+.left {
+    background-color: gray;
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+.right {
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    float: right;
+}
+
+.clear {
+    background-color: purple;
+    height: 50px;
+    clear: both;
+}
+/* float와 overflow를 사용해 배치 */
+/* section {
+    border: 5px solid black;
+    width:600px;
+    overflow: hidden;
+}
+
+section article {
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    float: left;
+} */
+
+/* display: inline-block으로 배치 */
+section {
+    border: 5px solid black;
+    /* 인라인블록 요소를 중앙정렬하려면 부모요소에 text-align: center 속성넣기 */
+    text-align: center;
+}
+
+section article {
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    display: inline-block;
+}
