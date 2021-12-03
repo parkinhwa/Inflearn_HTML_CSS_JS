@@ -84,3 +84,31 @@ HTML 문서 내에 HTML 태크를 선택해서 디자인하고 배치하는 역�
   - 크기값을 가질 수 있음
   - 상하 마진은 가질 수 있음
   - ex) img, input 태그들, button, fontawesome
+
+ ## CSS로 HTML 가로 배치하기(float, overflow, clear, inline-block)
+  - float
+    - left 왼쪽배치
+    - right 오른쪽배치
+    - margin: auto 중앙배치(블록요소만 가능 인라인 및 인라인 블록 요소는 적용안됨)
+  
+
+  - clear (float 속성이 적용되면 다음 요소가 float 속성을 상속받는데 이것을 해제시킨다.)
+    - left 왼쪽 float 속성 해지
+    - right 오른쪽 float 속성 해지
+    - both 왼쪽 또는 오른쪽으로 배치된 모든 float 속성 상속을 해지
+  
+
+  - 가로 배치하는 2가지 방법
+    - float와 overflow를 사용해 배치(width 범위를 벗어나면 안됨)
+    - display: inline-block으로 배치 
+
+## 레이아웃 설계하는 HTML5 시멘틱 태그 
+- 가장 상위의 컨테이너:.container 또는 .wrapper
+- 문서의 주요 내용을 지정: main
+- 주제별 콘텐츠 영역: section
+- 헤더 영역(로고, 메뉴. 로그, 검색 등): header
+- 제작 정보 및 저작권 정보 표시: footer
+- 콘텐츠 내용 넣기: article
+- 문서를 링크하는 탐색 영역: nav
+- 세부 사항 요소: summary / 추가 세부 정보를 정의 : details
+ ![image](https://user-images.githubusercontent.com/65644486/144627013-0b1c04f9-9132-4f06-922a-7a68be83cb47.png) {:.right}
