@@ -58,3 +58,29 @@ HTML 문서 내에 HTML 태크를 선택해서 디자인하고 배치하는 역�
 - box-sizing: border-box (박스사이즈 맞춰준다)
 - box-shadow: inset offset-x offset-y blur color (inset 안쪽그림자, blur 그림자 가장자리 부드럽게)
 
+## ★HTML 인라인요소, 블록요소, 인라인블록
+
+- 인라인 요소(inline)
+
+  - 한줄에 여러개 배치
+  - 기본 너비값을 컨텐츠의 너비값
+  - 크기값을 가질 수 없음
+  - 상하 마진을 가질 수 없음
+  - ex) span, a, small, big, em, u, s, del, br, q, b, strong...
+
+
+- 블록 요소(block)
+
+  - 한줄에 한개만 배치
+  - 기본 너비값은 100%
+  - 크기값을 가질 수 있음
+  - 상하좌우 마진 가질 수 있음
+  - ex) div, table, figure, header, nav, ul, ol. hr, h1~h6...
+
+
+- 인라인블록 요소(inline block)
+  - 한줄에 여러개 배치
+  - 기본 너비값은 컨텐츠의 너비값
+  - 크기값을 가질 수 있음
+  - 상하 마진은 가질 수 있음
+  - ex) img, input 태그들, button, fontawesome
