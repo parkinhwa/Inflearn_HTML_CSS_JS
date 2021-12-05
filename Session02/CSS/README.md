@@ -111,5 +111,22 @@ HTML 문서 내에 HTML 태크를 선택해서 디자인하고 배치하는 역�
 - 콘텐츠 내용 넣기: article
 - 문서를 링크하는 탐색 영역: nav
 - 세부 사항 요소: summary / 추가 세부 정보를 정의 : details
+- .container > header, section, footer > article > div
 
- ![image](https://user-images.githubusercontent.com/65644486/144627013-0b1c04f9-9132-4f06-922a-7a68be83cb47.png) 
+
+ ![image](https://user-images.githubusercontent.com/65644486/144627013-0b1c04f9-9132-4f06-922a-7a68be83cb47.png)
+ 
+ ## CSS 포지션 속성
+- CSS 포지셔닝 (position 속성 : relative & absolute)
+  - Relative(상대적인) -> 부모요소
+  - Absolute(절대적인) -> 자식요소
+- 자동으로 수평 수직 중앙 위치시키기
+  - position: absolute
+  - top: 50%
+  - left: 50%
+  - transform: translate(-50%, -50%)
+- 원하는 위치로 정확히 보내기
+
+![image](https://user-images.githubusercontent.com/65644486/144735689-98bf5119-69ef-4a3e-9b9b-2f9241eee743.png)
+
+
