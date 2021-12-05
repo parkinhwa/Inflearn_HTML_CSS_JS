@@ -1,0 +1,53 @@
+.parent {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+}
+.child1 {
+    position:absolute;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+.child2 {
+    position:absolute;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.child3 {
+    position:absolute;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+
+.child4 {
+    position:absolute;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+}
+
+.child5 {
+    position:absolute;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    /* 아래 속성을 적용하면 사각형의 중앙점이 아닌 왼쪽위 꼭지점이 top: 50% left:50%에 위치한다. */
+    top: 50%;
+    left: 50%;
+    /* 자기자신의 크기에서 -50% -50% 만큼이동 */
+    transform: translate(-50%, -50%)
+}
