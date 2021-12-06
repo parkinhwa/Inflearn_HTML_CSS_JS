@@ -1,0 +1,25 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font-size: 15px;
+}
+/* a태그는 body태그의 컬러영향을 받지않는다. */
+a {
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    /* 마우스 빠질 때 돌아오는 시간 */
+    transition: 1s;
+}
+
+a:hover {
+    background-color: #000;
+    color: white;
+    /* 마우스 올렸을 때 효과넣는 시간 */
+    transition: 0.5s;
+}
