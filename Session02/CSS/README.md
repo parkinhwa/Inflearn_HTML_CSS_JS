@@ -130,3 +130,10 @@ HTML 문서 내에 HTML 태크를 선택해서 디자인하고 배치하는 역�
 ![image](https://user-images.githubusercontent.com/65644486/144735689-98bf5119-69ef-4a3e-9b9b-2f9241eee743.png)
 
 
+## CSS 필수 가상클래스
+- 마우스 오버 효과
+  - hover(마우스를 올렸을 때 디자인이 변경된다)
+  - transition(디자인 변경 때 애니메이션 효과가 들어간다)
+- 순서를 만드는 가상클래스
+  - 태그:nth-child(숫자) 숫자(출현순서)번째 자식
+  - 태그:nth-of-type(숫자) 주어준 태그를 가진 숫자번째 자식
