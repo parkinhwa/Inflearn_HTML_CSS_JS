@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  margin: 0px;
+  font-weight: 300;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.square {
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+  position: relative;
+}
+.square span {
+  position: absolute;
+  width: 100%; /* == inherit (부모랑 똑같이) */
+  height: 100%;
+  border: 1px solid #fff;
+  border-radius: 40% 60% 65% 35% / 40% 45% 55% 60%;
+  transition: 0.5s;
+}
+
+.square:hover span {
+  background-color: crimson;
+  border: none;
+}
+
+.square span:nth-child(1) {
+  animation: circle 6s linear infinite;
+}
+
+.square span:nth-child(2) {
+  animation: circle 4s linear infinite;
+  animation-direction: reverse; /* 반시계방향으로 돈다 */
+}
+
+.square span:nth-child(3) {
+  animation: circle 4s linear infinite;
+}
+
+/* .square:hover span:nth-child(1) {
+  opacity: 0.3;
+  background-color: dodgerblue;
+}
+.square:hover span:nth-child(2) {
+  opacity: 0.6;
+  background-color: yellowgreen;
+}
+.square:hover span:nth-child(3) {
+  opacity: 0.9;
+  background-color: crimson;
+} */
+.square:nth-child(1):hover span {
+    opacity: 0.3;
+    background-color: dodgerblue;
+  }
+  .square:nth-child(2):hover span{
+    opacity: 0.6;
+    background-color: yellowgreen;
+  }
+  .square:nth-child(3):hover span {
+    opacity: 0.9;
+    background-color: crimson;
+  }
+.square div {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  text-align: center;
+  color: #fff;
+}
+.square div a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 40% 60% 65% 35% / 40% 45% 55% 60%;
+  padding: 8px;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
