@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #222;
+    line-height: 1.5em;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+.dropdown {
+    /* div요소가 넓이 100%를 차지하지 않고 쓰는만큼만 차지 */
+    display: inline-block;
+}
+.dropdown-btn {
+    width: inherit;
+    padding: 10px;
+    font-size: 18px;
+    background-color: yellowgreen;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.dropdown-submenu {
+    display: none;
+    /* border: 1px solid #000; */
+    width: inherit;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+}
+.dropdown-submenu a {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+.dropdown-submenu a:hover {
+    background-color: #eee;
+}
+.dropdown:hover .dropdown-submenu {
+    display:block;
+}
