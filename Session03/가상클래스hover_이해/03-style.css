@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #222;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+.container {
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+}
+.icon {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+}
+.icon span {
+    position: absolute; /* 인라인블록됨 */
+    background-color: #000;
+    color: white;
+    width: 300px;
+    text-align: center;
+    padding: auto;
+    border-radius: 5px;
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+    /* display:none; */
+    opacity: 0;
+    transition:0.5s;
+    visibility: hidden; /* 그 공간 숨김 */
+}
+.icon span:after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg) translateX(-50%);
+    bottom: -8.5px;
+    left: 50%;
+}
+
+.icon:hover span {
+    /* display: block; */
+    opacity: 1;
+    visibility:visible;
+}
