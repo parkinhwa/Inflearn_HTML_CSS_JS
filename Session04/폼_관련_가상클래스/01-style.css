@@ -1,0 +1,69 @@
+/* Google Web Fonts CDN */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
+
+/* Fontawesome 4.7 */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  font-weight: 300;
+  /* background-image: url(images/snow-photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; */
+  background: url(images/snow-photo.jpg) no-repeat center center fixed;
+}
+body:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+a {
+  text-decoration: none;
+}
+
+.search {
+  /* border: 1px solid #fff; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+}
+.search input[type="text"] {
+  width: 300px;
+  padding: 20px;
+  border: none;
+  margin-right: -6px;
+  border-radius: 40px 0 0 40px;
+}
+.search input[type="submit"] {
+  width: 100px;
+  padding: 20px;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+  cursor: pointer;
+  background-color: orange;
+  color: #fff;
+  outline: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.search input[type="submit"]:hover {
+  background-color: gold;
+}
+.search input[type="text"]::placeholder {
+  font-size: 20px;
+  font-style: italic;
+}
