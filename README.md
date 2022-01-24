@@ -44,29 +44,44 @@
 
 ## 가상클래스 hover 이해
 ### 01-기본형 드롭다운 네비게이션
+![image](https://user-images.githubusercontent.com/65644486/150754960-d15d2bc0-b322-492c-8c7a-1884a76e5bb7.png)
 
 ### 02-오버하면 상세설명 나타나는 상품목록
+![image](https://user-images.githubusercontent.com/65644486/150755050-9f597c3f-1ab5-4acd-a1bd-2bc56466b3e9.png)
 
 ### 03-마우스 오버되면 나타나는 툴팁만들기
+![image](https://user-images.githubusercontent.com/65644486/150755114-c96ea2c0-9dbf-4e0a-b353-b1f94d336dc7.png)
 
 ### 04-hover한 메뉴 외 나머지 흐려지는 네비게이션
+![image](https://user-images.githubusercontent.com/65644486/150755279-cc9d6653-75ad-4df7-89e3-13dda6b1391e.png)
 
-### 05-앱 UI 레이어 3D hover 애니메이션
+### 05-위아래 분리 네이게이션
+![image](https://user-images.githubusercontent.com/65644486/150755633-454b4e11-6f08-4c96-8e63-0cff99b3c01a.png)
+
+### 06-앱 UI 레이어
+![image](https://user-images.githubusercontent.com/65644486/150755818-56d959dc-bb18-48c9-8994-e84e6dea7e68.png)
 
 ## 확장선택자와 가상클래스 checked
 ### 01-햄버거 버튼
+![Hnet com-image (13)](https://user-images.githubusercontent.com/65644486/150756981-df6772a7-191e-43cd-b869-b5b80b2b1294.gif)
 
 ### 02-사이드메뉴
+![Hnet com-image (14)](https://user-images.githubusercontent.com/65644486/150756994-260d09d0-c146-48d0-80ab-0b358de51901.gif)
 
 ### 03-탭 메뉴
+![Hnet com-image (15)](https://user-images.githubusercontent.com/65644486/150757199-a619bccd-ae9d-4206-b499-ff736fee1cc1.gif)
 
 ### 04-탭 콘텐츠 Opacity
+![Hnet com-image (16)](https://user-images.githubusercontent.com/65644486/150757204-26e0f5b7-9870-4b9f-aca9-0138c5790db3.gif)
 
 ### 05-탭 콘텐츠 Opacity 응용
+![Hnet com-image (17)](https://user-images.githubusercontent.com/65644486/150757214-9f1361d0-ad84-4f3a-8cc3-22a93c9bcd49.gif)
 
 ### 06-탭 콘텐츠 Silde
+![Hnet com-image (18)](https://user-images.githubusercontent.com/65644486/150757312-36b4905b-e232-4712-858d-de341b7e6670.gif)
 
 ### 07-탭 콘텐츠 Testimonial
+![Hnet com-image (19)](https://user-images.githubusercontent.com/65644486/150757336-f36bb729-fea2-40a9-ba58-ad0c27c24480.gif)
 
 # Session04
 ## before_after_가상클래스_예제
