@@ -1,7 +1,7 @@
 # Session03
 ## CSS 키프레임 애니메이션 사용한 실전예제
 ### 01-원형로딩
-![Hnet com-image (3)](https://user-images.githubusercontent.com/65644486/150643555-b9025676-8d7a-4181-a3bd-b05522e3b2e0.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/65644486/151353774-57ef2012-7f13-4f60-a7db-8c6d1ac764c7.gif)
 
 ### 02-사각형로딩
 ![Hnet com-image (4)](https://user-images.githubusercontent.com/65644486/150643560-c840401c-f1a1-47bb-9970-35ed05597b36.gif)
