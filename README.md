@@ -4,10 +4,10 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/65644486/151353774-57ef2012-7f13-4f60-a7db-8c6d1ac764c7.gif)
 
 ### 02-사각형로딩
-![Hnet com-image (4)](https://user-images.githubusercontent.com/65644486/150643560-c840401c-f1a1-47bb-9970-35ed05597b36.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/65644486/151354222-c013bdaa-e10c-420c-9d61-1fcc601c34c4.gif)
 
 ### 03-더블보더
-![Hnet com-image (5)](https://user-images.githubusercontent.com/65644486/150643568-c3209f78-cf33-4a21-a54e-2f8656f60925.gif)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/65644486/151354393-9f27843a-3ece-425e-b5b2-8cb9bc02be08.gif)
 
 ## Pure CSS 콘텐츠 슬라이더 프로토타입
 ### 01-풀스크린 탭 콘텐츠 슬라이더 프로토타입
